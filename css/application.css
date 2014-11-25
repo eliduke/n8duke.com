@@ -1,0 +1,120 @@
+
+img {
+	margin-bottom: 30px;
+}
+
+ul {
+	margin-bottom: 20px;
+}
+
+small {
+	color: #999;
+}
+
+.header {
+	border-bottom: 1px solid #eee;
+	padding: 30px 0 30px 0;
+	margin: 0 0 30px 0;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.header h1 a {
+	color: #333;
+}
+
+.header h1 a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.header .nintendo {
+	font-size: 150%;
+}
+
+.header .nintendo a {
+	color: red;
+}
+
+.header p.nameandlocation {
+	color: #999;
+}
+
+.header ul {
+	margin: 5px 0 0 0;
+}
+
+#footer {
+	border-top: 1px solid #eee;
+	margin-top: 40px;
+	padding: 20px 0;
+}
+
+#nintendo h1 {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#nintendo h3 {
+	margin: 0 0 20px 0;
+}
+
+#nintendo ul li {
+}
+
+#nintendo .well {
+	text-align: center;
+}
+
+#nintendo .price-tag p {
+	font-size: 150%;
+  color: #666;
+	margin: 0;
+}
+
+#nintendo .price-tag h2 {
+	font-size: 500%;
+	margin: 0;
+}
+
+/* MEDIA */
+
+@media (max-width: 767px) {
+	.fouracross { display: none }
+	#nintendo .shelf-desktop { display: none }
+	.header h1 { font-size: 200% }
+}
+
+@media (min-width: 768px) {
+	.header ul { text-align: right }
+	.header p.nintendo { text-align: right }
+	#nintendo .shelf-desktop { display: all }
+	#nintendo .shelf-mobile { display: none }
+	#footer p { text-align: right }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#nintendo h1 { font-size: 225%; }
+	#nintendo { font-size: 110%;}
+	#nintendo .price-tag p { font-size: 120% }
+	#nintendo .small-image { display: all }
+	#nintendo .story p { font-size: 95% }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#nintendo h1 { font-size: 275%; }
+	#nintendo { font-size: 110%;}
+	#nintendo .price-tag h2 { font-size: 600%; }
+	#nintendo .small-image {display: none }
+	#nintendo .story p { font-size: 130% }
+}
+
+@media (min-width: 1200px) {
+	#nintendo h1 { font-size: 300%; }
+	#nintendo { font-size: 130%;}
+	#nintendo .price-tag h2 { font-size: 700%; }
+	#nintendo .small-image {display: none }
+	#nintendo .story p { font-size: 140% }
+}
