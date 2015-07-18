@@ -61,9 +61,6 @@ small {
 	margin: 0 0 20px 0;
 }
 
-#nintendo ul li {
-}
-
 #nintendo .well {
 	text-align: center;
 }
@@ -85,6 +82,7 @@ small {
 	.fouracross { display: none }
 	#nintendo .shelf-desktop { display: none }
 	.header h1 { font-size: 200% }
+  #nintendo .price-tag h2 { font-size: 450% }
 }
 
 @media (min-width: 768px) {
